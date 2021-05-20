@@ -42,6 +42,25 @@
         .........
     }
 
+例子:
+
+    
+    Service service = new ServiceImpl();
+    InvocationHandler invocationHandler = new InvocationHandler() {
+            @Override
+            // proxy为代理类的一个实例对象 method是被代理方法，args是传到方法的参数列表
+            // service是被代理对象 proxy除了用来输出一些调试信息外，没啥用了
+            public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+                System.out.println("before connect");
+                return method.invoke(service,args);
+            };
+        };
+    Class<?> serviceImplClass = ServiceImpl.class;
+    Service proxyService = (Service) Proxy.newProxyInstance
+                (serviceImplClass.getClassLoader(),
+                serviceImplClass.getInterfaces(), invocationHandler);
+    proxyService.connectDB();
+
 
 
     
