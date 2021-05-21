@@ -62,5 +62,22 @@
     proxyService.connectDB();
 
 
+CGlib代理:
+
+    Enhancer enhancer = new Enhancer();
+    enhancer.setSuperclass(PersonService.class);
+    //obj为代理对象，method为原方法 args为参数列表 proxy为代理方法
+    enhancer.setCallback((MethodInterceptor) (obj, method, args, proxy) -> {
+    //可以做一定的过滤操作
+    if (method.getDeclaringClass() != Object.class && method.getReturnType() == String.class) {
+        return "Hello Tom!";
+    } else {
+        //调用代理方法
+        return proxy.invokeSuper(obj, args);
+        }
+    });
+    
+    PersonService proxy = (PersonService) enhancer.create();
+
 
     
