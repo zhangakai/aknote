@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="245827e1-9b8b-4282-bcb9-92f794d00530" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/Java/Collection/Summary.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/RedBlackTree.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/image/LLandLR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/image/RRandRL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/image/Red_Black_Tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/image/Rotation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/image/simplecase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/image/uncleIsRed.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Collection/BlockQueue.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Collection/BlockQueue.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Proxy.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Proxy.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,20 +31,28 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Algorithm/image" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\aknote\Algorithm\image" />
+      <recent name="D:\idea\aknote\Algorithm" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -54,7 +66,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621392474065</updated>
-      <workItem from="1621392475219" duration="25093000" />
+      <workItem from="1621392475219" duration="25132000" />
+      <workItem from="1621618181510" duration="8585000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1621393211592</created>
@@ -126,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621501871219</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update Summary.md">
+      <created>1621611859064</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1621611859064</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +162,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project" />
@@ -150,6 +171,7 @@
     <MESSAGE value="update" />
     <MESSAGE value="add BlockQueue.md" />
     <MESSAGE value="update proxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="update proxy" />
+    <MESSAGE value="update Summary.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Summary.md" />
   </component>
 </project>
