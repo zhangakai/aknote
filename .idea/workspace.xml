@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="245827e1-9b8b-4282-bcb9-92f794d00530" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/Algorithm/RedBlackTree.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/image/LLandLR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/image/RRandRL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/image/Red_Black_Tree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/image/Rotation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/image/simplecase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/image/uncleIsRed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/image/delete1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/image/delete4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/image/delete5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/Collection/transferStack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linux/Read_Write_SendFile.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/RedBlackTree.md" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/RedBlackTree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/Collection/BlockQueue.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Collection/BlockQueue.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1sjibbGDRBS5DJuaP0xoUtsHLOl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -67,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621392474065</updated>
       <workItem from="1621392475219" duration="25132000" />
-      <workItem from="1621618181510" duration="8585000" />
+      <workItem from="1621618181510" duration="30530000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1621393211592</created>
@@ -146,7 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621611859064</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add red-black-tree">
+      <created>1621670765215</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1621670765215</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add red-black-tree">
+      <created>1621670844275</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1621670844275</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +196,7 @@
     <MESSAGE value="add BlockQueue.md" />
     <MESSAGE value="update proxy" />
     <MESSAGE value="update Summary.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Summary.md" />
+    <MESSAGE value="add red-black-tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="add red-black-tree" />
   </component>
 </project>
