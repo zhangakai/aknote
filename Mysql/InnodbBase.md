@@ -204,8 +204,36 @@ ICP优化
     意向排他锁 
     只会阻塞全表扫描
 
+
+
 一致性非锁定读
 
     即读数据时 如有x锁 则读历史版本
     对于read committed级别 读最新的历史快照
     对于repeatable committed 读事务开始时的行数据版本
+
+    默认读不加锁 使用一致性非锁定读
+    select for update 加 x锁
+    select lock in share mode 加s锁
+
+
+自增长
+
+    插入类型
+    insert like  所有
+    simple inserts 确定行数的插入
+    bulk inserts 不确定行数的插入
+    mixed-mode inserts 混合
+    
+    innodb_atomic_lock_mode
+    0 1 2
+    0已不再用  1默认 simple inserts用互斥量更新计数器 bulk insert 用auto-inc locking    
+    2 对所有插入都用互斥量更新计数器
+
+
+
+锁的算法
+
+    record lock 单个行记录上的锁
+    gap lock 锁定一个范围 不包括记录本身
+    next-key lock 锁定一个范围且锁定记录
