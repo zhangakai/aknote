@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="245827e1-9b8b-4282-bcb9-92f794d00530" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/Java/SomeLittleCase/base.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mysql/innodb1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mysql/InnodbBase.md" beforeDir="false" afterPath="$PROJECT_DIR$/Mysql/InnodbBase.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mysql/InnodbOptimization.md" beforeDir="false" afterPath="$PROJECT_DIR$/Mysql/InnodbOptimization.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
       <updated>1621392474065</updated>
       <workItem from="1621392475219" duration="25132000" />
       <workItem from="1621618181510" duration="30789000" />
-      <workItem from="1621779753785" duration="49500000" />
+      <workItem from="1621779753785" duration="68737000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1621393211592</created>
@@ -215,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621963257749</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="update concurrent">
+      <created>1622026002402</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1622026002402</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
