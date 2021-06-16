@@ -307,6 +307,16 @@ MVC
     private String httpMethod;//post get
     private String httpPath;
     }
+
+    初始化映射关系
+    1.遍历所有的被@ResquestMapping标记的类 获得注解值作为一级路径
+    2.遍历类里面所有方法被@RequestMapping标记的方法 获得注解值作为二级路径
+    3.解析方法里被@RequestPrarm标记的参数 获取该注解的值 作为参数名 获取被标记的参数类型 建立参数名和参数类型的映射
+    4.将获得的信息封装为以上两个对象
+    5.放在Map里
+    
+    process方法里面:
+    解析请求方法 请求路径 获得对应的ControllerMethod实例 解析参数 传递给对应的ControllerMethod实例执行
     
 
     
