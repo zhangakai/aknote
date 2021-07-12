@@ -40,8 +40,8 @@ Collection.foreach(), Iterator.foreach(), Stream.foreach(), for( : )
             return (E) elementData[lastRet = i];
         }
     }
-
-    可以看到有两个if分支
+    每次开始检查下modcount变了没
+    
 
     
     

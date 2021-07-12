@@ -88,13 +88,13 @@ binary log
 
     记录所有更改操作(update delete insert) 默认不启动 启动会影响大概1%的性能
     作用: 恢复数据 主从复制 审计(判断是否有注入攻击) 
-    sync_binlog 表示每写缓冲多少次就同步到磁盘 
+    sync_binlog 表示每写缓冲多少次就同步到磁盘 (=1时表示同步刷新到磁盘)
     slave 不会将master 中取得并执行的binlog写入到自己的binlog中 要使用主-从-从模式
     需要设置log_slave_update 
     
     binlog_format 设置格式 总共三种格式
     statement 只记录sql语句
-    row row格式会记录行的内容 更新前和更新后
+    row row格式会记录对整个行更改的记录
     mixed 混合模式
     
 

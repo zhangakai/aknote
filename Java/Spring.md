@@ -319,4 +319,27 @@ MVC
     解析请求方法 请求路径 获得对应的ControllerMethod实例 解析参数 传递给对应的ControllerMethod实例执行
     
 
+
+----------------------------------------------------------
+
+
+spring boot 启动过程
+
+    SpringAppliction 负责
+    创建一个合适的ApplictionContext实例
+    注册一个CommandLinePropertySource负责将命令行参数转化为spring proprty
+    刷新application context 加载所有的单例bean
+    激活所有的CommandLineRunner(一个接口,表示要run的bean) bean
+    Create an appropriate ApplicationContext instance (depending on your classpath)
+    Register a CommandLinePropertySource to expose command line arguments as Spring properties
+    Refresh the application context, loading all singleton beans
+    Trigger any CommandLineRunner beans
+
+    l Spring是提供基本功能的核心
+    
+    l SpringMVC是基于Spring的MVC框架
+    
+    l SpringBoot是一个快速开发集成包，用于简化Spring配置；
+    
+    l SpringCloud是基于SpringBoot的服务管理框架。
     
