@@ -342,4 +342,18 @@ spring boot 启动过程
     l SpringBoot是一个快速开发集成包，用于简化Spring配置；
     
     l SpringCloud是基于SpringBoot的服务管理框架。
+
+
+
+
+
+
+
+
+
+
+
+事务
+
+    
     

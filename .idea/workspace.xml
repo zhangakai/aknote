@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="245827e1-9b8b-4282-bcb9-92f794d00530" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/Java/JVM/command.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linux/command.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Architecture/DesignPattern.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/ Synchronize/SpinLock.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/Optimize/Handle.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linux/Base.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mysql/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/Transaction.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Collection/Foreach.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Collection/Foreach.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/SomeLittleCase/base.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java/SomeLittleCase/base.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Spring.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Spring.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/Spring.md" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/Spring.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linux/SelectPollEpoll.md" beforeDir="false" afterPath="$PROJECT_DIR$/Linux/SelectPollEpoll.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mysql/InnodbBase.md" beforeDir="false" afterPath="$PROJECT_DIR$/Mysql/InnodbBase.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mysql/lock.md" beforeDir="false" afterPath="$PROJECT_DIR$/Mysql/lock.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,17 +56,18 @@
       <recent name="D:\idea\aknote\Algorithm\image" />
       <recent name="D:\idea\aknote\Algorithm" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\aknote\Spring" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,7 +88,9 @@
       <workItem from="1622630765169" duration="30992000" />
       <workItem from="1623725866104" duration="37264000" />
       <workItem from="1625296176810" duration="8388000" />
-      <workItem from="1625582781986" duration="7758000" />
+      <workItem from="1625582781986" duration="10381000" />
+      <workItem from="1626750504963" duration="602000" />
+      <workItem from="1627719495063" duration="21009000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1621393211592</created>
@@ -316,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625754724333</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="update mysql lock">
+      <created>1626102679223</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1626102679223</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,6 +374,7 @@
     <MESSAGE value="update InnodbBase.md" />
     <MESSAGE value="update thread" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="update mysql lock" />
+    <option name="LAST_COMMIT_MESSAGE" value="update mysql lock" />
   </component>
 </project>

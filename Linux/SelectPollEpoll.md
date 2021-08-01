@@ -76,6 +76,18 @@
     
     1.可以看到，每次都要把rset所有的位置为0，再调用select函数，比较麻烦
     2.假设要监听10和500,那么即使监听两个fd,也要遍历到501，一一判断
+    3.返回的fd要自己循环一遍判断是否可读或可写
+
+
+poll
+
+    poll对select进行了改进,使用单个pollfd 结构数组
+    struct pollfd {
+      int fd;
+      short events; 
+      short revents;
+    };
+    不用
 
     
 
