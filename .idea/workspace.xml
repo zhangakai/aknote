@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="245827e1-9b8b-4282-bcb9-92f794d00530" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/Architecture/CodeComplete.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Architecture/Distributed.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Architecture/DistributedLock.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/Collection/Simple.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Net/Netty.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring/bean.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/JVM/ClassLoad.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java/JVM/ClassLoad.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/JVM/ExecutionEngine.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java/JVM/ExecutionEngine.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/JVM/Memory.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java/JVM/Memory.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/SomeLittleCase/base.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java/SomeLittleCase/base.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Net/HTTP.md" beforeDir="false" afterPath="$PROJECT_DIR$/Net/HTTP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/Spring.md" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/Spring.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mysql/InnodbBase.md" beforeDir="false" afterPath="$PROJECT_DIR$/Mysql/InnodbBase.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mysql/lock.md" beforeDir="false" afterPath="$PROJECT_DIR$/Mysql/lock.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +60,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,6 +96,7 @@
       <workItem from="1628933418307" duration="7356000" />
       <workItem from="1629180752438" duration="29864000" />
       <workItem from="1629511383890" duration="2533000" />
+      <workItem from="1629888069717" duration="3473000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1621393211592</created>

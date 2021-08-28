@@ -14,6 +14,7 @@
     IX锁表明一个事务意图在几行上加个X锁
     表级X　S锁与IX　IS的兼容情况
 
+    
             X	        IX      	S	        IS
     X	Conflict	Conflict	Conflict	Conflict
     IX	Conflict	Compatible	Conflict	Compatible
