@@ -164,7 +164,13 @@ redo log file
     3.compact对待char 和 varchar都是记录实际数据长度
     redundant对待char 记录的是char(32)括号里面的字符数量占用的字节长度
 
+    1.0版本之后
+    compressed:压缩版
+    dynamic:
 
+行溢出数据
+
+    blob text varchar 大对象放在另外的页上 (blob page)    
 
 
 ##索引与算法
