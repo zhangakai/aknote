@@ -45,14 +45,14 @@
 
 事务失效场景
 
-    1.当没有使用基于接口的代理时，@Transactional用于接口或者接口方法时。--解决方案 proxyTargetClass=false(会启用基于
+    1.当没有使用基于接口的代理时并且@Transactional用于接口或者接口方法时。--解决方案 proxyTargetClass=false(会启用基于接口的代理)
     2.在代理模式下（默认），只有通过代理对象进去的方法调用才会被拦截。用this.调用方法不会被拦截，因此会失效。
     假设一个类为user，它的代理类为userProxy，调用userProxy.update()才会被拦截，在外面包一层事务
     （ wrapped with transactions）。而用user.update不会被拦截。
     解决方案：设置mode=AspectJ mode
     3.抛出非RuntimeException的异常
     解决方案:@Transactional(rollbackFor = Exception.class)
-    4.异常被提前catch住 （这不是废话吗）
+    4.异常被提前catch住 (这不是废话吗)
     5.数据库不支持事务
     6.存在多个事务管理器 未明确指定使用哪个时，可能会有错误（比如应该用2 结果用了1） 
 

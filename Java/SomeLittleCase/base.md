@@ -7,7 +7,7 @@ Finally:
     JVM在finally之前崩溃
     如果JVM在try或catch块中有无限循环
     强制停止JVM进程 kill-9
-    如果finally块由守护程序线程执行 并且所有其他非守护程序线程在则在调用finally之前推出
+    如果finally块由守护程序线程执行 并且所有其他非守护程序线程在调用finally之前推出
 
     try{
         return 0;

@@ -274,7 +274,7 @@ MVC
     static 静态资源请求处理 包括但不限于图片 css等
     字段RequestDispatcher dispatcher;
     dispatcher = context.getNamedDispatcher("default");
-    process方法里面:
+    process方法里面:4
     通过请求路径是否是请求的静态资源(写死了 startsWith("/static/"))
     如果是 则转发给dispathcer处理 并且返回false 这样chain就停止了
     
